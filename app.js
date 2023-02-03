@@ -1,6 +1,6 @@
 const gridContainer = document.getElementById("gridContainer");
-gridContainer.style.display = "grid";
 const buttons = document.getElementById("buttons");
+
 const sizingButton = document.createElement("button");
 sizingButton.textContent = "Brush Size";
 buttons.appendChild(sizingButton);
@@ -10,6 +10,7 @@ buttons.appendChild(rgbButton);
 const blackButton = document.createElement("button");
 blackButton.textContent = "Black";
 buttons.appendChild(blackButton);
+
 let rgbHasBeenClicked = false;
 let pixelSize = 32;
 
